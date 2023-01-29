@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.cristianrita'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context:5.3.24'
+}
+
+test {
+    useJUnitPlatform()
+}
